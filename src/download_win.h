@@ -52,7 +52,7 @@ public:
   void handle_joining_thread();
   void handle_dl_fatal_error();
   void cleanup(boolean erase_dlparts);
-  void DL_Window::print_status(download_t * download, int quiet_mode);
+  void print_status(download_t * download, int quiet_mode);
 
   connection_t *connection;
   download_t *download;
